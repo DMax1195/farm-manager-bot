@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "farmbot.py", 
+      "src": "bot.py", 
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/webhook/",
-      "dest": "farmbot.py"
+      "dest": "bot.py"
     }
   ]
 }
